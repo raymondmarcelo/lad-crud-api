@@ -1,10 +1,14 @@
 # LAD CRUD API
 
-This project is a Node.js and Express CRUD API connected to a MySQL database.  
-It can manage two resources: **students** and **courses**.
+Simple Node.js + Express CRUD API with MySQL.
 
----
+## Setup
 
-## How to Run
+1. Copy `.env.example` to `.env` and fill in your DB credentials.
+2. Run `npm install` to install dependencies.
+3. Run `npm run dev` to start the server.
 
-1. Clone this repo
+## Routes
+
+- `GET /api/health` — Health check
+- `...` (other routes here)
